@@ -1,0 +1,12 @@
+name: required test
+on: [pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - id: checkout
+      uses: actions/checkout@v3.3.0
+   # - run: ./test.sh
+
+
+    

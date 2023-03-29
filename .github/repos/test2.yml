@@ -1,0 +1,41 @@
+repository:  
+  name: test2 
+  org: decyjphr-org
+  force_create: true
+  template: demo-template
+  description: description of test repos
+  homepage: https://test2.github.io/
+  topics: 
+  - safe-settings-managedx
+  - test-repo2-topic
+  - another-topic
+  auto_init: true 
+  has_issues: false
+  has_projects: false
+  has_wiki: false
+  has_downloads: false
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+ 
+labels: 
+  # Labels: define labels for Issues and Pull Requests
+  - name: bug
+    color: CC0000
+    description: An issue with the system
+  - name: feature
+    # If including a `#`, make sure to wrap it with quotes!
+    color: '#336699'
+    description: New functionality.
+  - name: first-timers-only
+    # include the old name to rename an existing label
+    oldname: Help Wanted
+    color: '#326699'
+  - name: new-label
+    # include the old name to rename an existing label
+    oldname: Help Wanted
+    color: '#326699'
+    
+validator:
+  #pattern: '[a-zA-Z0-9_-]+_[a-zA-Z0-9_-]+.*' 
+  pattern: '[a-zA-Z0-9_-]+' 
