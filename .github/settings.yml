@@ -38,5 +38,8 @@ branches:
         users: []
         teams: [] 
 
-
-    
+    labels:  
+  # Labels: define labels for Issues and Pull Requests
+  - name: green
+    color: '#B60205'
+    description: An issue sswithss the system 
