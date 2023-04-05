@@ -6,6 +6,8 @@ repository:
     topics:   
     - safe-settings-managed    
   
+    has_wiki: true
+
 branches:
   # If the name of the branch is default, it will create a branch protection for the default branch in the repo
   - name: default
