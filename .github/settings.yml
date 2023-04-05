@@ -38,7 +38,7 @@ branches:
         users: []
         teams: [] 
 
-    labels:  
+labels:  
   # Labels: define labels for Issues and Pull Requests
   - name: green
     color: '#B60205'
